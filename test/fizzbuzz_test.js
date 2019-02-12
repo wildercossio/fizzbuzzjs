@@ -49,4 +49,10 @@ describe('FIZZ BUZZ', function(){
         resultFizz = fizzbuzz.CalculatingFizzBuzz(number);
         expect("Fizz").equal(resultFizz);
     });
+
+    it('al enviar un numero que es divisible por 5, deberia retornar Buzz',function(){
+        number = 50;
+        resultBuzz = fizzbuzz.CalculatingFizzBuzz(number);
+        expect("Buzz").equal(resultBuzz);
+    });
 });
