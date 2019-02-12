@@ -1,7 +1,11 @@
 module.exports={
     ItisFizz(num){
         return num%3==0;
+    },
+    ItisBuzz:function(num){
+        return true;
     }
+
 }
 function fizzbuzz () {
     for(i = 0; i < 100; i++) 
