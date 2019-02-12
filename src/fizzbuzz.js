@@ -14,6 +14,10 @@ module.exports={
         case (this.ItisFizz(num) && this.ItisBuzz(num)): 
           resultFizzBuzz="FizzBuzz";  
           break;  
+        
+        default:
+          resultFizzBuzz=num;
+          break;
         }
     
         return resultFizzBuzz;
