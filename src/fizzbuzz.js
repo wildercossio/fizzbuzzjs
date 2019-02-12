@@ -1,3 +1,8 @@
+module.exports={
+    ItisFizz(num){
+        return num;
+    }
+}
 function fizzbuzz () {
     for(i = 0; i < 100; i++) 
     {
