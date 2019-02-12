@@ -25,4 +25,10 @@ describe('FIZZ BUZZ', function(){
         resultBuzz = fizzbuzz.ItisBuzz(number);
         expect(true).equal(resultBuzz);
     });
+
+    it('al enviar un numero que es divisible por 5 y por 3, deberia retornar FizzBuzz',function(){
+        number = 30;
+        resultBuzz = fizzbuzz.ItisFizzBuzz(number);
+        expect("FizzBuzz").equal(resultBuzz);
+    });
 });
