@@ -3,7 +3,7 @@ module.exports={
         return num%3==0;
     },
     ItisBuzz:function(num){
-        return false;
+        return num%5==0;
     }
 
 }
