@@ -1,6 +1,6 @@
 module.exports={
     ItisFizz(num){
-        return false;
+        return num%3==0;
     }
 }
 function fizzbuzz () {
