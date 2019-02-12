@@ -43,4 +43,10 @@ describe('FIZZ BUZZ', function(){
         resultFizzBuzz = fizzbuzz.CalculatingFizzBuzz(number);
         expect(7).equal(resultFizzBuzz);
     });
+
+    it('al enviar un numero que es divisible por 3, deberia retornar Fizz',function(){
+        number = 9;
+        resultFizz = fizzbuzz.CalculatingFizzBuzz(number);
+        expect("Fizz").equal(resultFizz);
+    });
 });
