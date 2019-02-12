@@ -21,7 +21,7 @@ describe('FIZZ BUZZ', function(){
     });
 
     it('al enviar un numero que es divisible por 5, deberia retornar verdadedo',function(){
-        number = 201;
+        number = 20;
         resultBuzz = fizzbuzz.ItisBuzz(number);
         expect(true).equal(resultBuzz);
     });
