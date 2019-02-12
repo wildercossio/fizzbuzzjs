@@ -26,15 +26,21 @@ describe('FIZZ BUZZ', function(){
         expect(true).equal(resultBuzz);
     });
 
-    it('al enviar un numero que es divisible por 5 y por 3, deberia retornar FizzBuzz',function(){
+    it('al enviar un numero que es divisible por 5 y por 3, deberia retornar verdadero',function(){
         number = 30;
         resultBuzz = fizzbuzz.ItisFizzBuzz(number);
         expect(true).equal(resultBuzz);
     });
-    
+
     it('al enviar un numero que es divisible por 5 y por 3, deberia retornar FizzBuzz',function(){
         number = 30;
-        resultBuzz = fizzbuzz.CalculatingFizzBuzz(number);
-        expect("FizzBuzz").equal(resultBuzz);
+        resultFizzBuzz = fizzbuzz.CalculatingFizzBuzz(number);
+        expect("FizzBuzz").equal(resultFizzBuzz);
+    });
+
+    it('al enviar un numero que NO es divisible por 5 y por 3, deberia retornar el mismo numero',function(){
+        number = 7;
+        resultFizzBuzz = fizzbuzz.CalculatingFizzBuzz(number);
+        expect(7).equal(resultFizzBuzz);
     });
 });
