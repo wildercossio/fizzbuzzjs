@@ -17,6 +17,9 @@ module.exports={
         case this.ItisFizz(num):
           resultFizzBuzz="Fizz";
           break;
+        case this.ItisBuzz(num):
+          resultFizzBuzz="Buzz";
+          break;
         default:
           resultFizzBuzz=num;
           break;
