@@ -7,4 +7,9 @@ describe('FIZZ BUZZ', function(){
         resultFizz = fizzbuzz.ItisFizz(number);
         expect(false).equal(resultFizz);
     });
+    it('al enviar un numero que es divisible por 3, deberia retornar verdadero', function(){
+        number = 2;
+        resultFizz = fizzbuzz.ItisFizz(number);
+        expect(true).equal(resultFizz);
+    });
 });
