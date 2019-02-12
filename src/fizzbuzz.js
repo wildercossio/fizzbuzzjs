@@ -11,7 +11,7 @@ module.exports={
     CalculatingFizzBuzz:function(num){
 
         switch(true){
-        case true: 
+        case (this.ItisFizz(num) && this.ItisBuzz(num)): 
           resultFizzBuzz="FizzBuzz";  
           break;  
         }
