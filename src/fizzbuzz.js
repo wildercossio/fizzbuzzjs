@@ -6,7 +6,7 @@ module.exports={
         return num%5==0;
     },
     ItisFizzBuzz:function(num){
-        return num;
+        return "FizzBuzz";
     }
 
 }
