@@ -7,7 +7,17 @@ module.exports={
     },
     ItisFizzBuzz:function(num){
         return this.ItisBuzz(num)&&this.ItisFizz(num);
-    }
+    },
+    CalculatingFizzBuzz:function(num){
+
+        switch(true){
+        case true: 
+          resultFizzBuzz="FizzBuzz";  
+          break;  
+        }
+    
+        return resultFizzBuzz;
+      }
 
 }
 function fizzbuzz () {
